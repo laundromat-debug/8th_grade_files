@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saanvi | JS Demo</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    
+    <script type="text/javascript" src="js/script.js "></script>
+
+</head>
+<body>
+    <h1>Today we will learn about JavaScript.</h1>
+    <h2>How do we onclick events?</h2>
+    <p>Click <a href="http://www.youtube.com" target="_blank" onclick="alert('Warning! YOU\'re navigating away from my website. ARE YOU SUREEEE?')">here</a> to navigate to youtube.</p>
+
+    <h2>We can also us JS to do math!</h2>
+    <p>What is 5+3?</p>
+    <button onclick="document.getElementById('add').innerHTML=5+3">Click me for answer!</button>
+    <p id="add"></p>
+
+    <h2>We can also add the date and time.</h2>
+    <button onclick="document.getElementById('date').innerHTML=Date()">Click me for the date and time.</button>
+    <p id="date"></p>
+
+    <h2>Let's change text with JS</h2>
+    <button onclick="document.getElementById('change-text').innerHTML='YOU did it'">click</button>
+    <p id="change-text">This text will change.</p>
+
+    <h2>How do we make a function with JS?</h2>
+    <p>Let's use a function to add an image to our page.</p>
+    <button onclick="showImg()">Click me for a surprise!</button>
+    <img id="surprise" src="h" width="500px">
+
+    <h2>how do we retrun user date?</h2>
+    <button onclick="askName()">Click me to put your name </button>
+    <p id="ask-name"></p>
+
+    <h2>How do we ask other questions with JS?</h2>
+    <button onclick="askQuestion()">Click her for the most groundbreaking question of all time.</button>
+    <p id="ask-question"></p>
+
+
+    <script>
+        function showImg() {
+            var image = document.getElementById('surprise');
+            image.src = 'images/8b2dab893a55ab641a6efc5923410ecb.jpg'
+        }
+
+       // alert('Hello World');
+       // alert('I');
+       // alert('like');
+       // alert('to');
+       // alert('sing');
+       // alert('the');
+       // alert('ABCs!');
+       // alert('Ready');
+       // alert('Steady');
+       // alert('GO!');
+       // alert('A');
+       // alert('B');
+       // alert('C');
+       // alert('D');
+       // alert('E');
+       // alert('F');
+       // alert('G');
+       // alert('H');
+       // alert('I');
+       // alert('J');
+       // alert('K');
+       // alert('L');
+       // alert('M');
+       // alert('N');
+       // alert('O');
+       // alert('P');
+       // alert('Q');
+       // alert('R');
+       // alert('S');
+       // alert('T');
+       // alert('U');
+       // alert('V');
+       // alert('W');
+       // alert('X');
+       // alert('Y');
+       // alert('Z');
+       // alert('NOW I KNOW THE ABCs');
+       // alert('NEXT TIME WONt YOU SING WITH MEEE')
+       // alert('And a lovely introduction from NOT Saanvi Singh to NOT her DEMOOOO');
+
+    </script>
+</body>
+</html>

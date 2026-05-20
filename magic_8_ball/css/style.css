@@ -1,0 +1,39 @@
+body {
+    background-color: cornflowerblue;
+}
+
+#question {
+    font-size: 25px;
+    text-align:  center;
+}
+#askButton {
+    font-size: 25px;
+    border-radius: 100px;
+    border: none; 
+    text-align: center;
+}
+#askButton:hover {
+    box-shadow: 0 8px 16px rgba(4, 68, 69, 0.137);
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    text-align:  center;
+}
+.Container1 {
+    text-align: center;
+}
+.container2 {
+    text-align: center;
+}
+.answerBox {
+    text-align: center;
+}
+
+h1 { 
+    text-align: center;
+
+}
+

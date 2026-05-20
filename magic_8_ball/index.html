@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="./js/script.js "></script>
+</head>
+<body>
+<h1>Ask this mystical and cryptic amazing magic 8 ball your biggest problems and he shall answer!</h1>
+        <div id="Container1">
+            <div class="container2">
+                <h2>Ask your question here:</h2>
+                <input
+                    id="question"
+                    placeholder="Type your question here..."
+                    type="text"
+                    onkeypress="handleKeyPress(event)" />
+                <img
+                    onclick="askQuestion()"
+                    id="askButton"
+                    src="./images/img.jpg"
+                    alt="Ask" />
+                <div id="answer" class="answer-box"></div>
+            </div>  
+        </div>
+
+</body>
+</html>

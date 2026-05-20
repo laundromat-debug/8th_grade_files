@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mario & Luigi CSS Demo</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: white;
+        }
+
+        h1 {
+            color: yellow;
+        }
+
+        .card {
+            width: 350px;
+            margin: 20px auto;
+            padding: 15px;
+            border: 3px solid white;
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+
+        .highlight {
+            color: red;
+            font-size: 20px;
+        }
+
+        body {
+            background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+        }
+
+        h1 {
+            text-shadow: 2px 2px 0 #000, 0 0 10px #ffcc00, 0 0 20px #ffcc00;
+            letter-spacing: 2px;
+        }
+
+        .card {
+            border-radius: 12px;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.6);
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.9);
+        }
+
+        .card h2 {
+            color: #00ffcc;
+            text-shadow: 1px 1px 5px black;
+        }
+
+        .highlight {
+            animation: pulse 1.5s infinite alternate;
+        }
+
+        body {
+            text-shadow: 0 0 3px rgba(0,0,0,0.5);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>THE MYSTERIOUS BACKSTORY OF MARIO AND LUIGI THE PLUMBERS.</h1>
+
+    <p style="color: lightgreen; font-size: 18px;">
+        Two brothers who became HEROES of the Mushroom Kingdom.
+    </p>
+
+    <div class="card">
+        <h2>Origins</h2>
+        <p>
+            <span class="highlight">Mario</span> and 
+            <span style="color: lightgreen;">Luigi</span> 
+            WHO started as simple plumbers in Brooklyn, but their lives changed FOREVER when they discovered a mysterious warp pipe.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Adventure</h2>
+        <p>
+            They were transported to the Mushroom Kingdom, where they met Princess Peach and began their quest to stop EVIL Bowser MUAHAHAHHAHAHAH.
+        </p>
+    </div>
+
+</body>
+</html>
