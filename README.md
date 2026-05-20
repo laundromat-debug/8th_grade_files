@@ -1,4 +1,4 @@
-# js_Demo
+# *th_grade_files
 <h1>This is a collection of my projects from my 8th grade web</h1>
 <ul>
   <li><a href = "html_demo">HTML Demo</a></li>
